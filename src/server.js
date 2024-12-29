@@ -1,6 +1,7 @@
 import http from "node:http";
 import { json } from "./middlewares/json.js";
 import { Database } from "./database.js";
+import { v4 as uuid } from "uuid";
 
 const database = new Database();
 
@@ -19,7 +20,7 @@ const server = http.createServer(async (req, res) => {
     const { name, email } = req.body;
 
     const user = {
-      id: 1,
+      id: uuid(),
       name,
       email,
     };
