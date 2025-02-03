@@ -1,4 +1,4 @@
-# 01-fundamentos-nodejs
+# Fundamentos Nodejs
 
 Este projeto é uma aplicação Node.js que explora conceitos fundamentais de streams, buffers e manipulação de dados. Ele inclui a implementação de um servidor HTTP que pode lidar com requisições e interagir com um banco de dados simples armazenado em um arquivo JSON.
 
